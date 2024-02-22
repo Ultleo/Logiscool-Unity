@@ -22,7 +22,7 @@ public class PlatformController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "wall")
+        if (other.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
         }
